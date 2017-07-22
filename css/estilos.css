@@ -52,6 +52,9 @@ section.portfolio .carousel-inner img {
 }
 
 footer{
+	display: flex;
+	justify-content: center;
+	align-items: center
 	position: fixed;
 	bottom: 0;
 	background-color: black;
@@ -60,14 +63,15 @@ footer{
 	z-index: 9999;
 }
 footer ul{
+	padding: 0;
+	margin: 0;
 	display: flex;
 	justify-content: center;
+	align-items: center;
 
 }
 .fa{
 	font-size: 3vh;
-	display: flex;
-	justify-content: center;
-	align-items: center;
+
 	margin: 0 20px;
 }
